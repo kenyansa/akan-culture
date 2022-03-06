@@ -14,9 +14,9 @@ There are no known bugs
 ## Technologies Used
  The project used HTML, CSS, and JS. The appearance of the web app is the work of html and css whereas the prompting and authentication of input data and calaculation of dates and week days is done withh js using methods for dates. Hash maps came in handy.
  ## Support and contact details
-Should you have any suggestions and ideas on how to improve the app, feel free to contact me through mmogambi@gmail.com
+Should you have any suggestions and ideas on how to improve the app, feel free to contact me through mmogambi@gmail.com.
 Code contributions are also welcome
 ### License
-Copyright (c) {2022} 
+Copyright (c) {2022} **{Kentech Products}**
 [MIT](https://choosealicense.com/licenses/mit/)
-**{Kentech Products}**
+
