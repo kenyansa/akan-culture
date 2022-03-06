@@ -17,6 +17,7 @@ h1 {
     width: 993px;
     height: 201px;
     left: 258px;
+    right: 258px;
     top: 149px;
     background: #C4C4C4;
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
@@ -29,4 +30,14 @@ h1 {
     padding:10px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
+}
+.generator-box{
+    position: absolute;
+    height: 492px;
+    width: 826px;
+    left: 352px;
+    right:352;
+    top: 450px;
+    background: #C4C4C4;
+    border-radius: 10px;
 }
