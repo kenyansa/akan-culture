@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>akan culture</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </head>
 <body bgcolor="black">
     <section >
@@ -23,7 +23,9 @@
         ORIGIN<br>
         In West Africa, newborns are given unique names accoridng to their day of the week when they are born. 
         It symbolizes solidarily of the soceity and ancestral affiliation.  
-        The days have meanings about the soul and character of the person. Examples of significant figures who had these names are Kwame Nkrumah and Kofi Annan.
+        The days have meanings about the soul and character of the person. Examples of significant figures who had these names are Kwame Nkrumah and Kofi Annan. 
+        You can learn more about the Akan culture and the naming system 
+        <a href="https://hadithi.africa/the-ghanaian-tradition-of-day-names-and-everything-you-need-to-know-about-it/" target="_blank">here</a>
         </P>
     </div>
     </Section>
@@ -37,7 +39,7 @@
             Kindly fill the form below and click on the “Generate” button to generate  your name.<br>
             It is gonna be fun!!!
         </p>
-        <form action="feedback.html" method="GET">
+        <div>
             <label for="Year of Birth">YoB:</label>
             <input class="form" type="number" id="YoB" name="Year of Birth"min="1900" max="2022" placeholder="YYYY" value="" required>
             <label for="Month">Month:</label>
@@ -45,28 +47,24 @@
             <label for="Day">Day:</label>
             <input class="form" type="number" id="Day" name="Day" min="1" max="31" placeholder="DD" value="" required><br><br>
             <label for="gender"> Choose Gender</label>
-            <select class="form" name="gender">
+            <select class="form" id="Gender" name="gender">
 	            <option value="none" selected>Gender</option>
 	            <option value="male">Male</option>
 	            <option value="female">Female</option>
             </select>
             <br><br>
-            <button class="button" type="submit">Submit</button><br><br>
+            <button class="button" onclick="processDate()">Submit</button><br><br>
             <button class="button" type="reset">Clear Input</button>
-        </form>
-        <p>
+        </div>
+        <p id="displayName">
             Your name will be displayed below...
         </p>
     </div>
     </Section>
     <section>
-        <footer class="footer">
-                <p>
-                    © 2022 <br>
-                    Designed and Developed by Justine Kenyansa
-                </p>
-        </footer>
-        
+        <div class="page-footer">
+           Copyright © 2019: Justine Kenyansa
+        </div>
     </section>
 </body>
 </html>
