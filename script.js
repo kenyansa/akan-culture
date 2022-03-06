@@ -22,11 +22,19 @@ function processDate(){
     femaleNames.set(4,"Yaa")
     femaleNames.set(5,"Afua")
     femaleNames.set(6,"Ama")
-if (Gender=="male") {
-    document.getElementById("displayName").innerHTML="Your name is: "+maleNames.get(DayOfWeek)
+    var weekDay= new Map();
+    weekDay.set(0,"Sunday")
+    weekDay.set(1,"Monday")
+    weekDay.set(2,"Tuesday")
+    weekDay.set(3,"Wednesday")
+    weekDay.set(4,"Thursday")
+    weekDay.set(5,"Friday")
+    weekDay.set(6,"Saturday")
+    if (Gender=="male") {
+    document.getElementById("displayName").innerHTML="Your name is: "+maleNames.get(DayOfWeek) +" because you were born on: "+weekDay.get(DayOfWeek)
 }
 else if(Gender=="female"){
-    document.getElementById("displayName").innerHTML="Your name is: " +femaleNames.get(DayOfWeek)
+    document.getElementById("displayName").innerHTML="Your name is: " +femaleNames.get(DayOfWeek) +" because you were born on: "+weekDay.get(DayOfWeek)
 }
 else {
     document.getElementById("displayName").innerHTML="invalid Gender"
