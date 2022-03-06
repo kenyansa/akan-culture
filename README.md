@@ -16,3 +16,7 @@ There are no known bugs
  ## Support and contact details
 Should you have any suggestions and ideas on how to improve the app, feel free to contact me through mmogambi@gmail.com
 Code contributions are also welcome
+### License
+Copyright (c) {2022} 
+[MIT](https://choosealicense.com/licenses/mit/)
+**{Kentech Products}**
