@@ -1,0 +1,14 @@
+img {
+    float: center;
+    border-radius: 15px;
+}
+p {
+    text-align: center;
+    line-height: 41px;
+    height: 41px;
+    padding: 5px;
+    font-size: 250%;
+    font-style: italic;
+    font-weight: bolder;
+    vertical-align: middle;
+}
