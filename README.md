@@ -19,5 +19,5 @@ Should you have any suggestions and ideas on how to improve the app, feel free t
 Code contributions are also welcome
 ### License
 Copyright (c) {2022} **{Kentech Products}**
-[MIT](https://choosealicense.com/licenses/mit/)
+Licensed under the [MIT License](LICENSE).
 
