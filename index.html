@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>akan culture</title>
-    <link rel="stylesheet" type="text/css" href="akan.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="js/script.js"></script>
 </head>
 <body bgcolor="black">
     <section >
@@ -38,13 +39,13 @@
         </p>
         <form action="feedback.html" method="GET">
             <label for="Year of Birth">YoB:</label>
-            <input type="number" id="YoB" name="Year of Birth"placeholder="YYYY" value="" required>
+            <input class="form" type="number" id="YoB" name="Year of Birth"min="1900" max="2022" placeholder="YYYY" value="" required>
             <label for="Month">Month:</label>
-            <input type="number" id="Month" name="Month"placeholder="MM" value="" required>
+            <input class="form" type="number" id="Month" name="Month"min="1" max="12" placeholder="MM" value="" required>
             <label for="Day">Day:</label>
-            <input type="number" id="Day" name="Day" placeholder="DD" value="" required><br><br>
+            <input class="form" type="number" id="Day" name="Day" min="1" max="31" placeholder="DD" value="" required><br><br>
             <label for="gender"> Choose Gender</label>
-            <select name="gender">
+            <select class="form" name="gender">
 	            <option value="none" selected>Gender</option>
 	            <option value="male">Male</option>
 	            <option value="female">Female</option>
@@ -58,5 +59,14 @@
         </p>
     </div>
     </Section>
+    <section>
+        <footer class="footer">
+                <p>
+                    © 2022 <br>
+                    Designed and Developed by Justine Kenyansa
+                </p>
+        </footer>
+        
+    </section>
 </body>
 </html>

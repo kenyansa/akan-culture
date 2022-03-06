@@ -47,7 +47,7 @@ h3{
 }
 .generator-box{
     position: absolute;
-    height: 492px;
+    height: 452px;
     width: 826px;
     left: 352px;
     right:352px;
@@ -65,4 +65,21 @@ form {
     border-radius: 5px;
     background-color:#c4d0f0;
     transition: 0.7s;
+}
+.form{
+    border-radius: 5px;  
+}
+footer{
+    top: 904px;
+    width:100%;
+    height:102px;
+}
+.footer{
+    text-align: center;
+    font-size: medium;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    height: 102px;
 }
