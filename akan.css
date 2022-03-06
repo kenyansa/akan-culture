@@ -18,6 +18,7 @@ h1 {
     font-style: italic;
     font-weight: bolder;
     vertical-align: middle;
+    color: azure;
 }
 h3{
     text-align: center;
@@ -34,7 +35,7 @@ h3{
     top: 149px;
     background: #C4C4C4;
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 29px;
@@ -59,4 +60,9 @@ h3{
 }
 form {
     padding:15px;
+}
+.button{
+    border-radius: 5px;
+    background-color:#c4d0f0;
+    transition: 0.7s;
 }
