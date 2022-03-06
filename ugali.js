@@ -7,3 +7,14 @@ narobiBedroom.set("Monday", "Upuzi")
 x=narobiBedroom.get ("Monday")
 
 console.log(x)
+a=5
+b= 10
+if (a>=b){
+    console.log("Amazing")
+}
+else {
+    console.log("Nonsense")
+}
+let number = 12345.676
+y=number.toExponential(2);
+console.log(y)
