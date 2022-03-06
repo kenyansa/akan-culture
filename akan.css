@@ -1,3 +1,10 @@
+/*body{
+    background-image: url(akan-marriage.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+*/
 img {
     float: center;
     border-radius: 15px;
@@ -11,6 +18,12 @@ h1 {
     font-style: italic;
     font-weight: bolder;
     vertical-align: middle;
+}
+h3{
+    text-align: center;
+    padding: 1px;
+    font-size: 200%;
+    font-style: italic; 
 }
 .origin{
     position: absolute;
@@ -36,8 +49,11 @@ h1 {
     height: 492px;
     width: 826px;
     left: 352px;
-    right:352;
+    right:352px;
     top: 450px;
     background: #C4C4C4;
     border-radius: 10px;
+}
+.generator-box p{
+    padding: 10px;
 }
