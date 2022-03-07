@@ -5,12 +5,12 @@ This app gives you a name based on the day of the week you were born. The names 
 ![Description part of the web-app](web-app_1.png)
 ![Pictorial for the Generator](web-app_2.png)
 ## Contributors
-The project was developed by Justine Kenyansa alone, but in the future, it may incorporator the work of other developers
+The project was developed by Justine Kenyansa alone, but in the future, it may incorporate the work of other developers
 ## Description
 The Akan-Culture Name Generator is a simple application that allows you to find a name depending on the day of the week when you were born. Persons outside the culture can find these names are feel associated to the local persons. 
-Mathematically, it is possible to calculate the day you were born from the century of your birth, the month of the year, and date. 
+Mathematically, it is possible to calculate the day you were born from the year of your birth, the month of the year, and date. 
 There are male and female names to be apportioned to the user.
-For the app to genrate your name, the input fields for month and date must be correct. The acceptable inputs for dates are 1-31 for dates and 1-12 for months.
+For the app to generate your name, the input fields for month and date must be correct. The acceptable inputs for dates are 1-31 for dates and 1-12 for months.
 ## Installation Requirements
 The app is still under development. Currently it does not need any installations to work.
 ## Known Bugs
