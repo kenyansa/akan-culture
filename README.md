@@ -15,6 +15,10 @@ For the app to generate your name, the input fields for month and date must be c
 The app is still under development. Currently it does not need any installations to work.
 ## Known Bugs
 There are no known bugs.
+## BDD
+The user is expected to enter the year of birth, the month, and day.
+If the user inputs a day less than 1, e.g., -1, it will give an alert to the user to put in a valid date.
+Months values should be between 1-12, anything outside this range will be invalid.
 The app currently work best for bigger screens and desktops. Development is underway to make it a fully PWA.
 ## Technologies Used
  The project used HTML, CSS, and JS. The appearance of the web app is the work of html and css whereas the prompting and authentication of input data and calaculation of dates and week days is done withh js using methods for dates. Hash maps came in handy.
