@@ -67,7 +67,8 @@ form {
     transition: 0.7s;
 }
 .form{
-    border-radius: 5px;  
+    border-radius: 5px; 
+    padding-left: 20px; 
 }
 footer{
     top: 904px;
