@@ -11,11 +11,11 @@ The Akan-Culture Name Generator is a simple application that allows you to find 
 Mathematically, it is possible to calculate the day you were born from the year of your birth, the month of the year, and date. 
 There are male and female names to be apportioned to the user.
 For the app to generate your name, the input fields for month and date must be correct. The acceptable inputs for dates are 1-31 for dates and 1-12 for months.
-## Installation Requirements
+## :pushpin: Installation Requirements
 The app is still under development. Currently it does not need any installations to work.
 ## Known Bugs
 There are no known bugs.
-## BDD
+## :pushpin: BDD
 The user is expected to enter the year of birth, the month, and day.
 If the user inputs a day less than 1, e.g., -1, it will give an alert to the user to put in a valid date.
 Months values should be between 1-12, anything outside this range will be invalid.
