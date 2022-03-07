@@ -1,8 +1,6 @@
 function processDate(){
-    var Year=document.getElementById("YoB").value
-    var Month=document.getElementById("Month").value
-    var Day=document.getElementById("Day").value
-    var validDate=Year+ "-" + Month+"-"+ Day
+    var Birthday=document.getElementById("Birthday").value
+    var validDate=Birthday
     var D=new Date (validDate)
     var DayOfWeek=D.getDay()
     var Gender=document.getElementById("Gender").value
