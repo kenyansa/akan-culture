@@ -2,8 +2,8 @@
 ### version 1.0.0
 This app gives you a name based on the day of the week you were born. The names show ancestral affiliation and character significance to the name person. Some of the famous persons name after this naming system are Kofi Annan and Kwame Nkrumah.
 ## Screeshots
-![Description part of the web-app](web-app_1)
-![Pictorial for the Generator](web-app_2)
+![Description part of the web-app](web-app_1.pngpng)
+![Pictorial for the Generator](web-app_2.png)
 ## Contributors
 The project was developed by Justine Kenyansa alone, but in the future, it may incorporator the work of other developers
 ## Description
